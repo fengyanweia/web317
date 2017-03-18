@@ -1,0 +1,151 @@
+@import url("reset.css");
+.center {
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 82px;
+  background: #222222;
+}
+.header .navbar-default {
+  height: 82px;
+  min-width: 1139px;
+  min-height: 69px;
+  background: #222222;
+  border: none;
+}
+.header .navbar-default img {
+  float: left;
+  margin-top: 24px;
+  margin-right: 10px;
+}
+.header .navbar-default a {
+  float: left;
+  margin-top: 19px;
+}
+.header .navbar-default a:hover {
+  color: white;
+}
+.header .navbar-default .right {
+  float: left;
+  margin-left: 400px;
+  min-width: 516px;
+  min-height: 69px;
+}
+@media (min-width: 1139px) {
+  .header .navbar-default .right {
+    margin-left: 400px;
+  }
+}
+.header .navbar-default .right a {
+  margin-right: 17px;
+}
+.header .navbar-default .right img {
+  margin-top: 35px;
+}
+.main {
+  width: 100%;
+  height: 382px;
+  background: none;
+  margin-top: -20px;
+  background: url(../img/images/4_11.png) repeat-x;
+}
+.main h1 {
+  font-size: 38px;
+  padding-top: 81px;
+  color: white;
+}
+.main p {
+  font-size: 24px;
+  color: #f1d9c2;
+}
+.main button {
+  margin: 0 auto;
+  display: inline-block;
+  width: 165px;
+  height: 64px;
+  background: none;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  background: #c54c2c;
+  border: none;
+}
+.main button:hover {
+  background: #c44727;
+}
+.main form {
+  margin-top: 40px;
+}
+.banner {
+  width: 100%;
+  height: 83px;
+  background: #eeeeee;
+  margin-top: -62px;
+}
+.banner p {
+  padding-top: 30px;
+  font-size: 18px;
+}
+.main2 .row {
+  margin-top: 73px;
+}
+.main2 .p {
+  float: left;
+  font-size: 20px;
+  padding-left: 12px;
+}
+.main2 i {
+  float: left;
+}
+.main2 .col-md-3:hover {
+  background: #fad9d1;
+}
+.line {
+  height: 73px;
+  border-bottom: 1px solid #eeeeee;
+}
+.main3 {
+  width: 100%;
+  height: 140px;
+  background: none;
+  margin-top: 50px;
+}
+.main3 p {
+  color: #be3511;
+  font-size: 20px;
+  font-style: italic;
+}
+.main3 p span {
+  font-weight: bolder;
+  font-style: italic;
+}
+.main4 {
+  width: 100%;
+  height: 275px;
+  background: none;
+  margin-top: 50px;
+}
+.main4 .pp {
+  font-size: 35px;
+}
+.main4 .pp2 {
+  font-size: 18px;
+}
+.main4 .input {
+  text-align: center;
+  margin-top: 18px;
+}
+.line2 {
+  width: 100%;
+  height: 40px;
+  background: none;
+  border-bottom: 1px solid #eeeeee;
+}
+.some {
+  font-size: 17px;
+  margin-top: 26px;
+}
+.row {
+  margin-top: 10px;
+}
